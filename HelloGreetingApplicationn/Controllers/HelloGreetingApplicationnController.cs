@@ -1,6 +1,8 @@
+using Business_Layer.Service;
 using Microsoft.AspNetCore.Mvc;
 using Model_Layer.Model;
 using NLog;
+using NLog.Config;
 
 namespace HelloGreetingApplicationn.Controllers
 {
@@ -9,12 +11,17 @@ namespace HelloGreetingApplicationn.Controllers
     public class HelloGreetingApplicationnController : ControllerBase
     {
         private static readonly Logger _logger = LogManager.GetCurrentClassLogger();
-
+        GreetingBL _greetingBL;
+        public HelloGreetingApplicationnController(GreetingBL _greetingBL)
+        {
+            this._greetingBL = _greetingBL;
+        
+        }
         [HttpGet]
         public IActionResult Get()
         {
             _logger.Info("GET request received.");
-
+            var greetingMessage = _greetingBL.GetGreeting();
             var responseModel = new ResponseModel<string>
             {
                 Success = true,
