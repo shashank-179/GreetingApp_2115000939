@@ -1,0 +1,76 @@
+[
+  {
+    "ContainingType": "HelloGreetingApplicationn.Controllers.HelloGreetingApplicationnController",
+    "Method": "Get",
+    "RelativePath": "HelloGreetingApplicationn",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelloGreetingApplicationn.Controllers.HelloGreetingApplicationnController",
+    "Method": "Post",
+    "RelativePath": "HelloGreetingApplicationn",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestModel",
+        "Type": "Model_Layer.Model.RequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelloGreetingApplicationn.Controllers.HelloGreetingApplicationnController",
+    "Method": "Put",
+    "RelativePath": "HelloGreetingApplicationn",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestModel",
+        "Type": "Model_Layer.Model.RequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelloGreetingApplicationn.Controllers.HelloGreetingApplicationnController",
+    "Method": "Patch",
+    "RelativePath": "HelloGreetingApplicationn",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestModel",
+        "Type": "Model_Layer.Model.RequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelloGreetingApplicationn.Controllers.HelloGreetingApplicationnController",
+    "Method": "Delete",
+    "RelativePath": "HelloGreetingApplicationn",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestModel",
+        "Type": "Model_Layer.Model.RequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

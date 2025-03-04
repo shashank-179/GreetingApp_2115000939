@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\HelloGreetingApplicationn.props" />
+</Project>
