@@ -12,16 +12,29 @@ namespace HelloGreetingApplicationn.Controllers
     {
         private static readonly Logger _logger = LogManager.GetCurrentClassLogger();
         GreetingBL _greetingBL;
-        public HelloGreetingApplicationnController(GreetingBL _greetingBL)
+        UserModel userModel;
+
+        public HelloGreetingApplicationnController(GreetingBL _greetingBL, UserModel userModel)
         {
             this._greetingBL = _greetingBL;
-        
+            this.userModel = userModel;
+        }
+        [HttpGet("Hello/World/Message")]
+        public string DefaultGreeting()
+        {
+            return _greetingBL.GetGreeting();
+        }
+        [HttpGet("personalized/greeting")]
+        public string GetPersonalizedGreeting() 
+        {
+            return _greetingBL.PersonalizedGreeting(userModel);
         }
         [HttpGet]
         public IActionResult Get()
         {
             _logger.Info("GET request received.");
             var greetingMessage = _greetingBL.GetGreeting();
+            
             var responseModel = new ResponseModel<string>
             {
                 Success = true,

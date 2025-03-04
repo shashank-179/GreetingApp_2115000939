@@ -5,6 +5,64 @@
     "version": "1.0"
   },
   "paths": {
+    "/HelloGreetingApplicationn/Hello/World/Message": {
+      "get": {
+        "tags": [
+          "HelloGreetingApplicationn"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/HelloGreetingApplicationn/personalized/greeting": {
+      "get": {
+        "tags": [
+          "HelloGreetingApplicationn"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/HelloGreetingApplicationn": {
       "get": {
         "tags": [

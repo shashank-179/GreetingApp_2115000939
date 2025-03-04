@@ -24,6 +24,7 @@ C:\Users\Shashank Mishra\source\repos\HelloGreetingApplicationn\HelloGreetingApp
 C:\Users\Shashank Mishra\source\repos\HelloGreetingApplicationn\HelloGreetingApplicationn\obj\Debug\net6.0\HelloGreetingApplicationn.csproj.CoreCompileInputs.cache
 C:\Users\Shashank Mishra\source\repos\HelloGreetingApplicationn\HelloGreetingApplicationn\obj\Debug\net6.0\HelloGreetingApplicationn.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Shashank Mishra\source\repos\HelloGreetingApplicationn\HelloGreetingApplicationn\obj\Debug\net6.0\HelloGreetingApplicationn.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Shashank Mishra\source\repos\HelloGreetingApplicationn\HelloGreetingApplicationn\obj\Debug\net6.0\HelloGreetingApplicationn.sourcelink.json
 C:\Users\Shashank Mishra\source\repos\HelloGreetingApplicationn\HelloGreetingApplicationn\obj\Debug\net6.0\scopedcss\bundle\HelloGreetingApplicationn.styles.css
 C:\Users\Shashank Mishra\source\repos\HelloGreetingApplicationn\HelloGreetingApplicationn\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\Shashank Mishra\source\repos\HelloGreetingApplicationn\HelloGreetingApplicationn\obj\Debug\net6.0\staticwebassets.development.json
@@ -41,4 +42,3 @@ C:\Users\Shashank Mishra\source\repos\HelloGreetingApplicationn\HelloGreetingApp
 C:\Users\Shashank Mishra\source\repos\HelloGreetingApplicationn\HelloGreetingApplicationn\obj\Debug\net6.0\HelloGreetingApplicationn.pdb
 C:\Users\Shashank Mishra\source\repos\HelloGreetingApplicationn\HelloGreetingApplicationn\obj\Debug\net6.0\HelloGreetingApplicationn.genruntimeconfig.cache
 C:\Users\Shashank Mishra\source\repos\HelloGreetingApplicationn\HelloGreetingApplicationn\obj\Debug\net6.0\ref\HelloGreetingApplicationn.dll
-C:\Users\Shashank Mishra\source\repos\HelloGreetingApplicationn\HelloGreetingApplicationn\obj\Debug\net6.0\HelloGreetingApplicationn.sourcelink.json
