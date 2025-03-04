@@ -17,6 +17,11 @@ namespace HelloGreetingApplicationn.Controllers
             this._greetingBL = _greetingBL;
         
         }
+        [HttpGet("Hello/World/Message")]
+        public string DefaultGreeting()
+        {
+            return _greetingBL.GetGreeting();
+        }
         [HttpGet]
         public IActionResult Get()
         {
