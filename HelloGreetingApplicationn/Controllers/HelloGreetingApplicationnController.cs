@@ -112,20 +112,28 @@ namespace HelloGreetingApplicationn.Controllers
             return Ok(responseModel);
         }
 
-        [HttpPut]
-        public IActionResult Put([FromBody] RequestModel requestModel)
+        [HttpPut("edit-greeting/{id}")]
+        public IActionResult EditGreeting(int id, [FromBody] GreetingUpdateRequest request)
         {
-            _logger.Info("PUT request received: Key = {Key}, Value = {Value}", requestModel.Key, requestModel.Value);
-
-            var responseModel = new ResponseModel<string>
+            if (request == null || string.IsNullOrWhiteSpace(request.NewMessage))
             {
-                Success = true,
-                Message = "Data updated successfully",
-                Data = $"Updated Key: {requestModel.Key}, Updated Value: {requestModel.Value}"
-            };
+                return BadRequest("New message cannot be empty.");
+            }
 
-            _logger.Info("PUT response: {@Response}", responseModel);
-            return Ok(responseModel);
+            var updatedGreeting = _greetingBL.UpdateGreeting(id, request.NewMessage);
+
+            if (updatedGreeting == null)
+            {
+                return NotFound("Greeting not found.");
+            }
+
+            return Ok(new { message = "Greeting updated successfully.", updatedGreeting });
+        }
+
+        // Define a request model for updating greeting
+        public class GreetingUpdateRequest
+        {
+            public string NewMessage { get; set; }
         }
 
         [HttpPatch]

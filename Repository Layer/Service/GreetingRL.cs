@@ -17,6 +17,16 @@ namespace Repository_Layer.Service
         {
             _context = context;
         }
+        public GreetingEntity UpdateGreeting(int id, string newMessage)
+        {
+            var greeting = _context.Users.Find(id);
+            if (greeting != null)
+            {
+                greeting.Message = newMessage;
+                _context.SaveChanges();
+            }
+            return greeting;
+        }
 
         public void SaveGreeting(GreetingEntity greeting)
         {
