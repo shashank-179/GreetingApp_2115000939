@@ -130,7 +130,7 @@ namespace HelloGreetingApplicationn.Controllers
             return Ok(new { message = "Greeting updated successfully.", updatedGreeting });
         }
 
-        // Define a request model for updating greeting
+        
         public class GreetingUpdateRequest
         {
             public string NewMessage { get; set; }
