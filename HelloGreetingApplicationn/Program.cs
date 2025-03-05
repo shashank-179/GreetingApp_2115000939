@@ -3,6 +3,8 @@ using Business_Layer.Service;
 using Repository_Layer.Service;
 using Repository_Layer.Interface;
 using Model_Layer.Model;
+using Microsoft.EntityFrameworkCore;
+using Repository_Layer.Context;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,7 +17,15 @@ builder.Services.AddScoped<GreetingBL>();
 builder.Services.AddScoped<GreetingRL>();
 builder.Services.AddScoped<IGreetingBL,GreetingBL>();
 builder.Services.AddScoped<IGreetingRL,GreetingRL>();
-builder.Services.AddScoped<UserModel>(); 
+builder.Services.AddScoped<UserModel>();
+
+
+
+var connectionString = builder.Configuration.GetConnectionString("SqlConnection");
+
+builder.Services.AddDbContext<GreetingDbContext>(options =>
+    options.UseSqlServer(connectionString));
+
 
 var app = builder.Build();
 

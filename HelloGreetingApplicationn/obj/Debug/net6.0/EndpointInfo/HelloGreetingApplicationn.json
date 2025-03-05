@@ -5,6 +5,37 @@
     "version": "1.0"
   },
   "paths": {
+    "/HelloGreetingApplicationn/save-greeting": {
+      "post": {
+        "tags": [
+          "HelloGreetingApplicationn"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GreetingRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GreetingRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GreetingRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/HelloGreetingApplicationn/Hello/World/Message": {
       "get": {
         "tags": [
@@ -194,6 +225,16 @@
   },
   "components": {
     "schemas": {
+      "GreetingRequest": {
+        "type": "object",
+        "properties": {
+          "message": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "RequestModel": {
         "type": "object",
         "properties": {
@@ -202,8 +243,8 @@
             "format": "int32"
           },
           "value": {
-            "type": "integer",
-            "format": "int32"
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false

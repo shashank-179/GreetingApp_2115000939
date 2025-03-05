@@ -9,6 +9,6 @@ namespace Model_Layer.Model
     public class RequestModel
     {
         public int Key { get; set; }
-        public int Value { get; set; }
+        public string Value { get; set; }
     }
 }

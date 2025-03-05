@@ -112,5 +112,21 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "HelloGreetingApplicationn.Controllers.HelloGreetingApplicationnController",
+    "Method": "SaveGreeting",
+    "RelativePath": "HelloGreetingApplicationn/save-greeting",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "HelloGreetingApplicationn.Controllers.HelloGreetingApplicationnController\u002BGreetingRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

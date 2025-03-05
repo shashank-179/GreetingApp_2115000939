@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Mvc;
 using Model_Layer.Model;
 using NLog;
 using NLog.Config;
+using Repository_Layer.Entity;
+using Repository_Layer.Interface;
 
 namespace HelloGreetingApplicationn.Controllers
 {
@@ -13,12 +15,34 @@ namespace HelloGreetingApplicationn.Controllers
         private static readonly Logger _logger = LogManager.GetCurrentClassLogger();
         GreetingBL _greetingBL;
         UserModel userModel;
+        private readonly IGreetingRL _greetingRL;
 
-        public HelloGreetingApplicationnController(GreetingBL _greetingBL, UserModel userModel)
+
+        public HelloGreetingApplicationnController(GreetingBL _greetingBL, UserModel userModel, IGreetingRL greetingRL)
         {
             this._greetingBL = _greetingBL;
             this.userModel = userModel;
+            _greetingRL = greetingRL;
         }
+        [HttpPost("save-greeting")]
+        public IActionResult SaveGreeting([FromBody] GreetingRequest request)
+        {
+            if (request == null || string.IsNullOrWhiteSpace(request.Message))
+            {
+                return BadRequest(new { error = "Message cannot be empty." });
+            }
+
+            var greetingEntity = new GreetingEntity { Message = request.Message };
+            _greetingRL.SaveGreeting(greetingEntity);
+            return Ok(new { message = "Greeting saved successfully." });
+        }
+
+        // Define a request model class:
+        public class GreetingRequest
+        {
+            public string Message { get; set; }
+        }
+
         [HttpGet("Hello/World/Message")]
         public string DefaultGreeting()
         {
