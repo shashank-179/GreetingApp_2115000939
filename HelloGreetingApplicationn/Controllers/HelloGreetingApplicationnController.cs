@@ -24,6 +24,19 @@ namespace HelloGreetingApplicationn.Controllers
             this.userModel = userModel;
             _greetingRL = greetingRL;
         }
+        [HttpGet("find-greeting/{id}")]
+        public IActionResult GetGreetingById(int id)
+        {
+            var greeting = _greetingBL.GetGreetingById(id);
+
+            if (greeting == null)
+            {
+                return NotFound("Greeting not found.");
+            }
+
+            return Ok(greeting);
+        }
+
         [HttpPost("save-greeting")]
         public IActionResult SaveGreeting([FromBody] GreetingRequest request)
         {

@@ -6,14 +6,23 @@ using System.Text;
 using System.Threading.Tasks;
 using Business_Layer.Interface;
 using Model_Layer.Model;
+using Repository_Layer.Entity;
+using Repository_Layer.Interface;
 
 namespace Business_Layer.Service
 {
+
     public class GreetingBL : IGreetingBL
     {
-        public GreetingBL()
-        {
+        private readonly IGreetingRL _greetingRL;
 
+        public GreetingBL(IGreetingRL _greetingRL)
+        {
+            this._greetingRL = _greetingRL;
+        }
+        public GreetingEntity GetGreetingById(int id)
+        {
+            return _greetingRL.GetGreetingById(id);
         }
         public string GetGreeting()
         {

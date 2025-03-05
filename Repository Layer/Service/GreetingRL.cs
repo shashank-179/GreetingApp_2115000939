@@ -21,12 +21,12 @@ namespace Repository_Layer.Service
         public void SaveGreeting(GreetingEntity greeting)
         {
             _context.Users.Add(greeting);
-            
-                _context.SaveChanges();
 
-            
-                
-            
+            _context.SaveChanges();
+        }
+        public GreetingEntity GetGreetingById(int id)
+        {
+            return _context.Users.Find(id);
         }
     }
 }
