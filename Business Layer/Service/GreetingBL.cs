@@ -20,6 +20,10 @@ namespace Business_Layer.Service
         {
             this._greetingRL = _greetingRL;
         }
+        public List<GreetingEntity> GetAllGreetings()
+        {
+            return _greetingRL.GetAllGreetings();
+        }
         public GreetingEntity GetGreetingById(int id)
         {
             return _greetingRL.GetGreetingById(id);

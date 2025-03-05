@@ -111,6 +111,16 @@
   },
   {
     "ContainingType": "HelloGreetingApplicationn.Controllers.HelloGreetingApplicationnController",
+    "Method": "GetAllGreetings",
+    "RelativePath": "HelloGreetingApplicationn/list-greetings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelloGreetingApplicationn.Controllers.HelloGreetingApplicationnController",
     "Method": "GetPersonalizedGreeting",
     "RelativePath": "HelloGreetingApplicationn/personalized/greeting",
     "HttpMethod": "GET",

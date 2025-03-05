@@ -28,5 +28,9 @@ namespace Repository_Layer.Service
         {
             return _context.Users.Find(id);
         }
+        public List<GreetingEntity> GetAllGreetings()
+        {
+            return _context.Users.ToList();
+        }
     }
 }
