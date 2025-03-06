@@ -42,5 +42,16 @@ namespace Repository_Layer.Service
         {
             return _context.Users.ToList();
         }
+        public bool DeleteGreeting(int id)
+        {
+            var greeting = _context.Users.Find(id);
+            if (greeting != null)
+            {
+                _context.Users.Remove(greeting);
+                _context.SaveChanges();
+                return true;
+            }
+            return false;
+        }
     }
 }

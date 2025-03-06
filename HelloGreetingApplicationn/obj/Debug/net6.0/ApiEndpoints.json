@@ -43,15 +43,15 @@
   },
   {
     "ContainingType": "HelloGreetingApplicationn.Controllers.HelloGreetingApplicationnController",
-    "Method": "Delete",
-    "RelativePath": "HelloGreetingApplicationn",
+    "Method": "DeleteGreeting",
+    "RelativePath": "HelloGreetingApplicationn/delete-greeting/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "requestModel",
-        "Type": "Model_Layer.Model.RequestModel",
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
