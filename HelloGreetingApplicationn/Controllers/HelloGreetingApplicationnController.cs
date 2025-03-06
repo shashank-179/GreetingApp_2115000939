@@ -152,20 +152,17 @@ namespace HelloGreetingApplicationn.Controllers
             return Ok(responseModel);
         }
 
-        [HttpDelete]
-        public IActionResult Delete([FromBody] RequestModel requestModel)
+        [HttpDelete("delete-greeting/{id}")]
+        public IActionResult DeleteGreeting(int id)
         {
-            _logger.Info("DELETE request received: Key = {Key}", requestModel.Key);
+            var isDeleted = _greetingBL.DeleteGreeting(id);
 
-            var responseModel = new ResponseModel<string>
+            if (!isDeleted)
             {
-                Success = true,
-                Message = "Data deleted successfully",
-                Data = $"Deleted Key: {requestModel.Key}, Deleted Value: {requestModel.Value}"
-            };
+                return NotFound("Greeting not found.");
+            }
 
-            _logger.Info("DELETE response: {@Response}", responseModel);
-            return Ok(responseModel);
+            return Ok(new { message = "Greeting deleted successfully." });
         }
     }
 }
