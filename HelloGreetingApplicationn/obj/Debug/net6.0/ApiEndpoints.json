@@ -27,22 +27,6 @@
   },
   {
     "ContainingType": "HelloGreetingApplicationn.Controllers.HelloGreetingApplicationnController",
-    "Method": "Put",
-    "RelativePath": "HelloGreetingApplicationn",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "requestModel",
-        "Type": "Model_Layer.Model.RequestModel",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "HelloGreetingApplicationn.Controllers.HelloGreetingApplicationnController",
     "Method": "Patch",
     "RelativePath": "HelloGreetingApplicationn",
     "HttpMethod": "PATCH",
@@ -68,6 +52,27 @@
       {
         "Name": "requestModel",
         "Type": "Model_Layer.Model.RequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelloGreetingApplicationn.Controllers.HelloGreetingApplicationnController",
+    "Method": "EditGreeting",
+    "RelativePath": "HelloGreetingApplicationn/edit-greeting/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "HelloGreetingApplicationn.Controllers.HelloGreetingApplicationnController\u002BGreetingUpdateRequest",
         "IsRequired": true
       }
     ],
