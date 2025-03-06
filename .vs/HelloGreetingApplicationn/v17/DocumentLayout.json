@@ -11,16 +11,32 @@
       "RelativeMoniker": "D:0:0:{C1149993-52ED-47FD-97EB-9E0507594C70}|Business Layer\\Business Layer.csproj|solutionrelative:business layer\\service\\greetingbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F52F1345-55E6-41DE-9370-A667E0888F93}|Repository Layer\\Repository Layer.csproj|c:\\users\\shashank mishra\\source\\repos\\hellogreetingapplicationn\\repository layer\\service\\greetingrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F52F1345-55E6-41DE-9370-A667E0888F93}|Repository Layer\\Repository Layer.csproj|solutionrelative:repository layer\\service\\greetingrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C1149993-52ED-47FD-97EB-9E0507594C70}|Business Layer\\Business Layer.csproj|c:\\users\\shashank mishra\\source\\repos\\hellogreetingapplicationn\\business layer\\interface\\igreetingbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1149993-52ED-47FD-97EB-9E0507594C70}|Business Layer\\Business Layer.csproj|solutionrelative:business layer\\interface\\igreetingbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1149993-52ED-47FD-97EB-9E0507594C70}|Business Layer\\Business Layer.csproj|c:\\users\\shashank mishra\\source\\repos\\hellogreetingapplicationn\\business layer\\business layer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C1149993-52ED-47FD-97EB-9E0507594C70}|Business Layer\\Business Layer.csproj|solutionrelative:business layer\\business layer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD7B6EDB-3173-4E12-9359-7DBFC117FEE5}|Middleware\\Middleware.csproj|c:\\users\\shashank mishra\\source\\repos\\hellogreetingapplicationn\\middleware\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD7B6EDB-3173-4E12-9359-7DBFC117FEE5}|Middleware\\Middleware.csproj|solutionrelative:middleware\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD7B6EDB-3173-4E12-9359-7DBFC117FEE5}|Middleware\\Middleware.csproj|c:\\users\\shashank mishra\\source\\repos\\hellogreetingapplicationn\\middleware\\exceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD7B6EDB-3173-4E12-9359-7DBFC117FEE5}|Middleware\\Middleware.csproj|solutionrelative:middleware\\exceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD7B6EDB-3173-4E12-9359-7DBFC117FEE5}|Middleware\\Middleware.csproj|c:\\users\\shashank mishra\\source\\repos\\hellogreetingapplicationn\\middleware\\middleware.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FD7B6EDB-3173-4E12-9359-7DBFC117FEE5}|Middleware\\Middleware.csproj|solutionrelative:middleware\\middleware.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F52F1345-55E6-41DE-9370-A667E0888F93}|Repository Layer\\Repository Layer.csproj|c:\\users\\shashank mishra\\source\\repos\\hellogreetingapplicationn\\repository layer\\interface\\igreetingrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F52F1345-55E6-41DE-9370-A667E0888F93}|Repository Layer\\Repository Layer.csproj|solutionrelative:repository layer\\interface\\igreetingrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1149993-52ED-47FD-97EB-9E0507594C70}|Business Layer\\Business Layer.csproj|c:\\users\\shashank mishra\\source\\repos\\hellogreetingapplicationn\\business layer\\interface\\igreetingbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1149993-52ED-47FD-97EB-9E0507594C70}|Business Layer\\Business Layer.csproj|solutionrelative:business layer\\interface\\igreetingbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F52F1345-55E6-41DE-9370-A667E0888F93}|Repository Layer\\Repository Layer.csproj|c:\\users\\shashank mishra\\source\\repos\\hellogreetingapplicationn\\repository layer\\service\\greetingrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F52F1345-55E6-41DE-9370-A667E0888F93}|Repository Layer\\Repository Layer.csproj|solutionrelative:repository layer\\service\\greetingrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F52F1345-55E6-41DE-9370-A667E0888F93}|Repository Layer\\Repository Layer.csproj|c:\\users\\shashank mishra\\source\\repos\\hellogreetingapplicationn\\repository layer\\migrations\\greetingdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -71,10 +87,6 @@
       "RelativeMoniker": "D:0:0:{C453FB2D-1132-4E2E-B66E-B829D04839D5}|HelloGreetingApplicationn\\HelloGreetingApplicationn.csproj|solutionrelative:hellogreetingapplicationn\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1149993-52ED-47FD-97EB-9E0507594C70}|Business Layer\\Business Layer.csproj|c:\\users\\shashank mishra\\source\\repos\\hellogreetingapplicationn\\business layer\\business layer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{C1149993-52ED-47FD-97EB-9E0507594C70}|Business Layer\\Business Layer.csproj|solutionrelative:business layer\\business layer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C453FB2D-1132-4E2E-B66E-B829D04839D5}|HelloGreetingApplicationn\\HelloGreetingApplicationn.csproj|c:\\users\\shashank mishra\\source\\repos\\hellogreetingapplicationn\\hellogreetingapplicationn\\hellogreetingapplicationn.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{C453FB2D-1132-4E2E-B66E-B829D04839D5}|HelloGreetingApplicationn\\HelloGreetingApplicationn.csproj|solutionrelative:hellogreetingapplicationn\\hellogreetingapplicationn.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     }
@@ -86,11 +98,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GlobalExceptionHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Shashank Mishra\\source\\repos\\HelloGreetingApplicationn\\Middleware\\GlobalExceptionHandler.cs",
+              "RelativeDocumentMoniker": "Middleware\\GlobalExceptionHandler.cs",
+              "ToolTip": "C:\\Users\\Shashank Mishra\\source\\repos\\HelloGreetingApplicationn\\Middleware\\GlobalExceptionHandler.cs",
+              "RelativeToolTip": "Middleware\\GlobalExceptionHandler.cs",
+              "ViewState": "AgIAAAkAAABgZmZmZmYkwCMAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T08:53:31.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ExceptionHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Shashank Mishra\\source\\repos\\HelloGreetingApplicationn\\Middleware\\ExceptionHandler.cs",
+              "RelativeDocumentMoniker": "Middleware\\ExceptionHandler.cs",
+              "ToolTip": "C:\\Users\\Shashank Mishra\\source\\repos\\HelloGreetingApplicationn\\Middleware\\ExceptionHandler.cs",
+              "RelativeToolTip": "Middleware\\ExceptionHandler.cs",
+              "ViewState": "AgIAAAUAAABAMzMzMzMbwAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T08:45:25.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HelloGreetingApplicationnController.cs",
+              "DocumentMoniker": "C:\\Users\\Shashank Mishra\\source\\repos\\HelloGreetingApplicationn\\HelloGreetingApplicationn\\Controllers\\HelloGreetingApplicationnController.cs",
+              "RelativeDocumentMoniker": "HelloGreetingApplicationn\\Controllers\\HelloGreetingApplicationnController.cs",
+              "ToolTip": "C:\\Users\\Shashank Mishra\\source\\repos\\HelloGreetingApplicationn\\HelloGreetingApplicationn\\Controllers\\HelloGreetingApplicationnController.cs",
+              "RelativeToolTip": "HelloGreetingApplicationn\\Controllers\\HelloGreetingApplicationnController.cs",
+              "ViewState": "AgIAAGkAAADgzMzMzMw6wBgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T06:14:34.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Business Layer.csproj",
+              "DocumentMoniker": "C:\\Users\\Shashank Mishra\\source\\repos\\HelloGreetingApplicationn\\Business Layer\\Business Layer.csproj",
+              "RelativeDocumentMoniker": "Business Layer\\Business Layer.csproj",
+              "ToolTip": "C:\\Users\\Shashank Mishra\\source\\repos\\HelloGreetingApplicationn\\Business Layer\\Business Layer.csproj",
+              "RelativeToolTip": "Business Layer\\Business Layer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-04T06:06:41.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IGreetingBL.cs",
+              "DocumentMoniker": "C:\\Users\\Shashank Mishra\\source\\repos\\HelloGreetingApplicationn\\Business Layer\\Interface\\IGreetingBL.cs",
+              "RelativeDocumentMoniker": "Business Layer\\Interface\\IGreetingBL.cs",
+              "ToolTip": "C:\\Users\\Shashank Mishra\\source\\repos\\HelloGreetingApplicationn\\Business Layer\\Interface\\IGreetingBL.cs",
+              "RelativeToolTip": "Business Layer\\Interface\\IGreetingBL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T06:08:12.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GreetingBL.cs",
+              "DocumentMoniker": "C:\\Users\\Shashank Mishra\\source\\repos\\HelloGreetingApplicationn\\Business Layer\\Service\\GreetingBL.cs",
+              "RelativeDocumentMoniker": "Business Layer\\Service\\GreetingBL.cs",
+              "ToolTip": "C:\\Users\\Shashank Mishra\\source\\repos\\HelloGreetingApplicationn\\Business Layer\\Service\\GreetingBL.cs",
+              "RelativeToolTip": "Business Layer\\Service\\GreetingBL.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T06:07:28.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Middleware",
+              "DocumentMoniker": "C:\\Users\\Shashank Mishra\\source\\repos\\HelloGreetingApplicationn\\Middleware\\Middleware.csproj",
+              "RelativeDocumentMoniker": "Middleware\\Middleware.csproj",
+              "ToolTip": "C:\\Users\\Shashank Mishra\\source\\repos\\HelloGreetingApplicationn\\Middleware\\Middleware.csproj",
+              "RelativeToolTip": "Middleware\\Middleware.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-06T08:52:19.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "IGreetingRL.cs",
               "DocumentMoniker": "C:\\Users\\Shashank Mishra\\source\\repos\\HelloGreetingApplicationn\\Repository Layer\\Interface\\IGreetingRL.cs",
               "RelativeDocumentMoniker": "Repository Layer\\Interface\\IGreetingRL.cs",
@@ -103,19 +206,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GreetingDbContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\Shashank Mishra\\source\\repos\\HelloGreetingApplicationn\\Repository Layer\\Migrations\\GreetingDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Repository Layer\\Migrations\\GreetingDbContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\Shashank Mishra\\source\\repos\\HelloGreetingApplicationn\\Repository Layer\\Migrations\\GreetingDbContextModelSnapshot.cs",
-              "RelativeToolTip": "Repository Layer\\Migrations\\GreetingDbContextModelSnapshot.cs",
-              "ViewState": "AgIAABIAAACgmZmZmZktwCkAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T19:05:41.317Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "GreetingRL.cs",
               "DocumentMoniker": "C:\\Users\\Shashank Mishra\\source\\repos\\HelloGreetingApplicationn\\Repository Layer\\Service\\GreetingRL.cs",
               "RelativeDocumentMoniker": "Repository Layer\\Service\\GreetingRL.cs",
@@ -128,45 +219,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HelloGreetingApplicationnController.cs",
-              "DocumentMoniker": "C:\\Users\\Shashank Mishra\\source\\repos\\HelloGreetingApplicationn\\HelloGreetingApplicationn\\Controllers\\HelloGreetingApplicationnController.cs",
-              "RelativeDocumentMoniker": "HelloGreetingApplicationn\\Controllers\\HelloGreetingApplicationnController.cs",
-              "ToolTip": "C:\\Users\\Shashank Mishra\\source\\repos\\HelloGreetingApplicationn\\HelloGreetingApplicationn\\Controllers\\HelloGreetingApplicationnController.cs",
-              "RelativeToolTip": "HelloGreetingApplicationn\\Controllers\\HelloGreetingApplicationnController.cs",
-              "ViewState": "AgIAAJYAAAAAZmZmZmYGwKEAAAA3AAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "GreetingDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Shashank Mishra\\source\\repos\\HelloGreetingApplicationn\\Repository Layer\\Migrations\\GreetingDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Repository Layer\\Migrations\\GreetingDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Shashank Mishra\\source\\repos\\HelloGreetingApplicationn\\Repository Layer\\Migrations\\GreetingDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Repository Layer\\Migrations\\GreetingDbContextModelSnapshot.cs",
+              "ViewState": "AgIAABIAAACgmZmZmZktwCkAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T06:14:34.709Z",
+              "WhenOpened": "2025-03-05T19:05:41.317Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GreetingBL.cs",
-              "DocumentMoniker": "C:\\Users\\Shashank Mishra\\source\\repos\\HelloGreetingApplicationn\\Business Layer\\Service\\GreetingBL.cs",
-              "RelativeDocumentMoniker": "Business Layer\\Service\\GreetingBL.cs",
-              "ToolTip": "C:\\Users\\Shashank Mishra\\source\\repos\\HelloGreetingApplicationn\\Business Layer\\Service\\GreetingBL.cs",
-              "RelativeToolTip": "Business Layer\\Service\\GreetingBL.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAkwB0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T06:07:28.404Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IGreetingBL.cs",
-              "DocumentMoniker": "C:\\Users\\Shashank Mishra\\source\\repos\\HelloGreetingApplicationn\\Business Layer\\Interface\\IGreetingBL.cs",
-              "RelativeDocumentMoniker": "Business Layer\\Interface\\IGreetingBL.cs",
-              "ToolTip": "C:\\Users\\Shashank Mishra\\source\\repos\\HelloGreetingApplicationn\\Business Layer\\Interface\\IGreetingBL.cs",
-              "RelativeToolTip": "Business Layer\\Interface\\IGreetingBL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T06:08:12.055Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "20250305114922_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\Shashank Mishra\\source\\repos\\HelloGreetingApplicationn\\Repository Layer\\Migrations\\20250305114922_InitialCreate.cs",
               "RelativeDocumentMoniker": "Repository Layer\\Migrations\\20250305114922_InitialCreate.cs",
@@ -174,11 +240,12 @@
               "RelativeToolTip": "Repository Layer\\Migrations\\20250305114922_InitialCreate.cs",
               "ViewState": "AgIAABAAAAAAAAAAAADwvx0AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T11:49:22.692Z"
+              "WhenOpened": "2025-03-05T11:49:22.692Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "GreetingEntity.cs",
               "DocumentMoniker": "C:\\Users\\Shashank Mishra\\source\\repos\\HelloGreetingApplicationn\\Repository Layer\\Entity\\GreetingEntity.cs",
               "RelativeDocumentMoniker": "Repository Layer\\Entity\\GreetingEntity.cs",
@@ -186,11 +253,12 @@
               "RelativeToolTip": "Repository Layer\\Entity\\GreetingEntity.cs",
               "ViewState": "AgIAAAcAAAAAMzMzMzMLwA8AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T11:28:12.403Z"
+              "WhenOpened": "2025-03-05T11:28:12.403Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "GreetingDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Shashank Mishra\\source\\repos\\HelloGreetingApplicationn\\Repository Layer\\Context\\GreetingDbContext.cs",
               "RelativeDocumentMoniker": "Repository Layer\\Context\\GreetingDbContext.cs",
@@ -198,11 +266,12 @@
               "RelativeToolTip": "Repository Layer\\Context\\GreetingDbContext.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAewA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T11:14:16.144Z"
+              "WhenOpened": "2025-03-05T11:14:16.144Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "Repository Layer.csproj",
               "DocumentMoniker": "C:\\Users\\Shashank Mishra\\source\\repos\\HelloGreetingApplicationn\\Repository Layer\\Repository Layer.csproj",
               "RelativeDocumentMoniker": "Repository Layer\\Repository Layer.csproj",
@@ -210,11 +279,12 @@
               "RelativeToolTip": "Repository Layer\\Repository Layer.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-04T06:10:27.801Z"
+              "WhenOpened": "2025-03-04T06:10:27.801Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Shashank Mishra\\source\\repos\\HelloGreetingApplicationn\\HelloGreetingApplicationn\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "HelloGreetingApplicationn\\Properties\\launchSettings.json",
@@ -222,11 +292,12 @@
               "RelativeToolTip": "HelloGreetingApplicationn\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-04T06:39:06.138Z"
+              "WhenOpened": "2025-03-04T06:39:06.138Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "ResponseModel.cs",
               "DocumentMoniker": "C:\\Users\\Shashank Mishra\\source\\repos\\HelloGreetingApplicationn\\Model Layer\\Model\\ResponseModel.cs",
               "RelativeDocumentMoniker": "Model Layer\\Model\\ResponseModel.cs",
@@ -234,11 +305,12 @@
               "RelativeToolTip": "Model Layer\\Model\\ResponseModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T06:09:34.356Z"
+              "WhenOpened": "2025-03-04T06:09:34.356Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "RequestModel.cs",
               "DocumentMoniker": "C:\\Users\\Shashank Mishra\\source\\repos\\HelloGreetingApplicationn\\Model Layer\\Model\\RequestModel.cs",
               "RelativeDocumentMoniker": "Model Layer\\Model\\RequestModel.cs",
@@ -246,11 +318,12 @@
               "RelativeToolTip": "Model Layer\\Model\\RequestModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T06:17:51.738Z"
+              "WhenOpened": "2025-03-04T06:17:51.738Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Shashank Mishra\\source\\repos\\HelloGreetingApplicationn\\HelloGreetingApplicationn\\Program.cs",
               "RelativeDocumentMoniker": "HelloGreetingApplicationn\\Program.cs",
@@ -258,23 +331,25 @@
               "RelativeToolTip": "HelloGreetingApplicationn\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T06:33:07.4Z"
+              "WhenOpened": "2025-03-04T06:33:07.4Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "HelloGreetingApplicationn.csproj",
               "DocumentMoniker": "C:\\Users\\Shashank Mishra\\source\\repos\\HelloGreetingApplicationn\\HelloGreetingApplicationn\\HelloGreetingApplicationn.csproj",
               "RelativeDocumentMoniker": "HelloGreetingApplicationn\\HelloGreetingApplicationn.csproj",
               "ToolTip": "C:\\Users\\Shashank Mishra\\source\\repos\\HelloGreetingApplicationn\\HelloGreetingApplicationn\\HelloGreetingApplicationn.csproj",
               "RelativeToolTip": "HelloGreetingApplicationn\\HelloGreetingApplicationn.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-04T06:12:37.997Z"
+              "WhenOpened": "2025-03-04T06:12:37.997Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "UserModel.cs",
               "DocumentMoniker": "C:\\Users\\Shashank Mishra\\source\\repos\\HelloGreetingApplicationn\\Model Layer\\Model\\UserModel.cs",
               "RelativeDocumentMoniker": "Model Layer\\Model\\UserModel.cs",
@@ -282,23 +357,12 @@
               "RelativeToolTip": "Model Layer\\Model\\UserModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T08:50:43.307Z"
+              "WhenOpened": "2025-03-04T08:50:43.307Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Business Layer.csproj",
-              "DocumentMoniker": "C:\\Users\\Shashank Mishra\\source\\repos\\HelloGreetingApplicationn\\Business Layer\\Business Layer.csproj",
-              "RelativeDocumentMoniker": "Business Layer\\Business Layer.csproj",
-              "ToolTip": "C:\\Users\\Shashank Mishra\\source\\repos\\HelloGreetingApplicationn\\Business Layer\\Business Layer.csproj",
-              "RelativeToolTip": "Business Layer\\Business Layer.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-04T06:06:41.755Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Shashank Mishra\\source\\repos\\HelloGreetingApplicationn\\HelloGreetingApplicationn\\appsettings.json",
               "RelativeDocumentMoniker": "HelloGreetingApplicationn\\appsettings.json",
@@ -306,18 +370,20 @@
               "RelativeToolTip": "HelloGreetingApplicationn\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-05T05:16:14.95Z"
+              "WhenOpened": "2025-03-05T05:16:14.95Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "HelloGreetingApplicationn",
               "DocumentMoniker": "C:\\Users\\Shashank Mishra\\source\\repos\\HelloGreetingApplicationn\\HelloGreetingApplicationn\\HelloGreetingApplicationn.csproj",
               "RelativeDocumentMoniker": "HelloGreetingApplicationn\\HelloGreetingApplicationn.csproj",
               "ToolTip": "C:\\Users\\Shashank Mishra\\source\\repos\\HelloGreetingApplicationn\\HelloGreetingApplicationn\\HelloGreetingApplicationn.csproj",
               "RelativeToolTip": "HelloGreetingApplicationn\\HelloGreetingApplicationn.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-04T11:07:08.239Z"
+              "WhenOpened": "2025-03-04T11:07:08.239Z",
+              "EditorCaption": ""
             }
           ]
         }
