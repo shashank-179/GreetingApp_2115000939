@@ -20,6 +20,34 @@ namespace Repository_Layer.Service
             _context = context;
             this.userContext = userContext;
         }
+        public void SavePasswordResetToken(int userId, string token)
+        {
+            var user = userContext.UserDetails.Find(userId);
+            if (user != null)
+            {
+                user.ResetToken = token;
+                user.TokenExpiry = DateTime.UtcNow.AddHours(1); // Token valid for 1 hour
+                userContext.SaveChanges();
+            }
+        }
+
+        public UserEntity GetUserByResetToken(string token)
+        {
+            return userContext.UserDetails.FirstOrDefault(u => u.ResetToken == token && u.TokenExpiry > DateTime.UtcNow);
+        }
+
+        public void UpdatePassword(int userId, string newPassword)
+        {
+            var user = userContext.UserDetails.Find(userId);
+            if (user != null)
+            {
+                user.PasswordHash = PasswordHashing.HashPassword(newPassword);
+                user.ResetToken = null; // Invalidate token after reset
+                user.TokenExpiry = null;
+                userContext.SaveChanges();
+            }
+        }
+
         public UserEntity GetUserByEmail(string email)
         {
             return userContext.Set<UserEntity>().FirstOrDefault(user => user.Email == email);

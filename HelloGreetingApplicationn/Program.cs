@@ -48,6 +48,8 @@ builder.Services.AddSwaggerGen(options =>
         }
     });
 });
+builder.Services.AddScoped<EmailService>();
+
 builder.Services.AddScoped<GreetingBL>();
 builder.Services.AddScoped<GreetingRL>();
 builder.Services.AddScoped<IGreetingBL,GreetingBL>();

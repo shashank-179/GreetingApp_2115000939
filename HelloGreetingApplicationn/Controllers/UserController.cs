@@ -6,6 +6,7 @@ using Repository_Layer.Context;
 using Business_Layer.Service;
 using Model_Layer.Model;
 using RepositoryLayer.Entity;
+using Microsoft.EntityFrameworkCore;
 
 [Route("api/auth")]
 [ApiController]
@@ -13,11 +14,14 @@ public class UserController : ControllerBase
 {
     private readonly GreetingBL _greetingBL;
     private readonly JwtService jwtService;
-
-    public UserController(GreetingBL _greetingBL, JwtService jwtService)
+    private readonly UserContext userContext;
+    private readonly EmailService emailService;
+    public UserController(GreetingBL _greetingBL, JwtService jwtService, UserContext userContext, EmailService emailService)
     {
         this._greetingBL = _greetingBL;
         this.jwtService = jwtService;
+        this.userContext = userContext;
+        this.emailService = emailService;
     }
     [HttpPost("register")]
     public IActionResult Register([FromBody] RegisterDTO registerDTO)
@@ -61,6 +65,38 @@ public class UserController : ControllerBase
         var token = jwtService.GenerateToken(user);
 
         return Ok(new { message = "Login successful", token });
+    }
+    [HttpPost("forgot-password")]
+    public async Task<IActionResult> ForgotPassword([FromBody] ForgetPasswordDTO forgetPasswordDTO)
+    {
+        if (string.IsNullOrEmpty(forgetPasswordDTO.Email))
+        {
+            return BadRequest("Email is required");
+        }
+
+        var user = userContext.UserDetails.FirstOrDefault(u => u.Email == forgetPasswordDTO.Email);
+        if (user == null)
+        {
+            return NotFound("User not found");
+        }
+
+        // Generate a reset token
+        user.ResetToken = Guid.NewGuid().ToString();
+        user.TokenExpiry = DateTime.UtcNow.AddHours(1); // Token expires in 1 hour
+        await userContext.SaveChangesAsync();
+
+        // Send the reset token in the email
+        await emailService.SendEmailAsync(user.Email, "Password Reset", user.ResetToken);
+
+        return Ok("Password reset token has been sent to your email.");
+    }
+    [HttpPost("reset-password")]
+    public IActionResult ResetPassword([FromBody] ResetPasswordDTO resetPasswordDTO)
+    {
+        if (_greetingBL.ResetPassword(resetPasswordDTO))
+            return Ok("Password has been reset successfully.");
+
+        return BadRequest("Invalid or expired token.");
     }
 
 }

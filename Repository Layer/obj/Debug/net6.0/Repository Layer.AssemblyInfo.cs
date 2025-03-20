@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Repository Layer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb326000061b6ecdb83b5cf46bd65aaa0336caf0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+284731a4218677ce64e9cb4c33f90bcbe2bf455c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Repository Layer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Repository Layer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

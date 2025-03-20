@@ -10,6 +10,9 @@ namespace Repository_Layer.Interface
 {
     public interface IGreetingRL
     {
+        public void SavePasswordResetToken(int userId, string token);
+        public UserEntity GetUserByResetToken(string token);
+        public void UpdatePassword(int userId, string newPassword);
         public UserEntity GetUserByEmail(string email);
         public void AddUser(UserEntity user);
         void SaveGreeting(GreetingEntity greeting);

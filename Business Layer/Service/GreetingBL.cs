@@ -17,12 +17,36 @@ namespace Business_Layer.Service
     public class GreetingBL : IGreetingBL
     {
         private readonly IGreetingRL _greetingRL;
+        EmailService _emailService;
 
-        public GreetingBL(IGreetingRL _greetingRL)
+        public GreetingBL(IGreetingRL _greetingRL, EmailService _emailService)
         {
             this._greetingRL = _greetingRL;
+            this._emailService = _emailService;
         }
 
+        public bool ForgotPassword(ForgetPasswordDTO forgetPasswordDTO)
+        {
+            var user = _greetingRL.GetUserByEmail(forgetPasswordDTO.Email);
+            if (user == null) return false;
+
+            string resetToken = ResetTokenGenerator.GenerateResetToken();
+            _greetingRL.SavePasswordResetToken(user.Id, resetToken);
+
+            return _emailService.SendResetPasswordEmail(user.Email, resetToken);
+        }
+
+        public bool ResetPassword(ResetPasswordDTO resetPasswordDTO)
+        {
+            var user = _greetingRL.GetUserByResetToken(resetPasswordDTO.Token);
+            if (user == null)
+            {
+                return false;
+            }
+
+            _greetingRL.UpdatePassword(user.Id, resetPasswordDTO.NewPassword);
+            return true;
+        }
         public UserEntity RegisterUserBL(RegisterDTO registerDTO)
         {
             if (string.IsNullOrWhiteSpace(registerDTO.Name) || string.IsNullOrWhiteSpace(registerDTO.Email) || string.IsNullOrWhiteSpace(registerDTO.Password))

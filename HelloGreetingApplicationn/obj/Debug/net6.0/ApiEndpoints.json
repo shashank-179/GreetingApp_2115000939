@@ -1,6 +1,22 @@
 [
   {
     "ContainingType": "UserController",
+    "Method": "ForgotPassword",
+    "RelativePath": "api/auth/forgot-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "forgetPasswordDTO",
+        "Type": "Model_Layer.Model.ForgetPasswordDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserController",
     "Method": "LoginUser",
     "RelativePath": "api/auth/login",
     "HttpMethod": "POST",
@@ -26,6 +42,22 @@
       {
         "Name": "registerDTO",
         "Type": "ModelLayer.Model.RegisterDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserController",
+    "Method": "ResetPassword",
+    "RelativePath": "api/auth/reset-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "resetPasswordDTO",
+        "Type": "Model_Layer.Model.ResetPasswordDTO",
         "IsRequired": true
       }
     ],
