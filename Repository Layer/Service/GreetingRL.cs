@@ -6,16 +6,29 @@ using System.Threading.Tasks;
 using Repository_Layer.Interface;
 using Repository_Layer.Context;
 using Repository_Layer.Entity;
+using Microsoft.EntityFrameworkCore;
+using RepositoryLayer.Entity;
 
 namespace Repository_Layer.Service
 {
     public class GreetingRL: IGreetingRL
     {
         private readonly GreetingDbContext _context;
-
-        public GreetingRL(GreetingDbContext context)
+        private readonly UserContext userContext;
+        public GreetingRL(GreetingDbContext context, UserContext userContext)    
         {
             _context = context;
+            this.userContext = userContext;
+        }
+        public UserEntity GetUserByEmail(string email)
+        {
+            return userContext.Set<UserEntity>().FirstOrDefault(user => user.Email == email);
+        }
+
+        public void AddUser(UserEntity user)
+        {
+            userContext.Set<UserEntity>().Add(user);
+            userContext.SaveChanges();
         }
         public GreetingEntity UpdateGreeting(int id, string newMessage)
         {
