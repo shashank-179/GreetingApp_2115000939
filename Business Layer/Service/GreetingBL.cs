@@ -49,26 +49,14 @@ namespace Business_Layer.Service
             return newUser;
         }
 
-        public string LoginUserBL(LoginDTO loginDTO)
+        public UserEntity LoginUserBL(LoginDTO loginDTO)
         {
-            if (string.IsNullOrWhiteSpace(loginDTO.Email) || string.IsNullOrWhiteSpace(loginDTO.Password))
-            {
-                return "Email and Password are required";
-            }
-
             var user = _greetingRL.GetUserByEmail(loginDTO.Email);
-            if (user == null)
+            if (user == null || !PasswordHashing.VerifyPassword(loginDTO.Password, user.PasswordHash))
             {
-                return "Invalid email or password";
+                return null; // Invalid login
             }
-
-            bool isPasswordValid = PasswordHashing.VerifyPassword(loginDTO.Password, user.PasswordHash);
-            if (!isPasswordValid)
-            {
-                return "Invalid email or password";
-            }
-
-            return "Login successful";
+            return user; // Return UserEntity on success
         }
 
         public GreetingEntity UpdateGreeting(int id, string newMessage)
