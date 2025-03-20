@@ -25,6 +25,8 @@ var connectionString = builder.Configuration.GetConnectionString("SqlConnection"
 
 builder.Services.AddDbContext<GreetingDbContext>(options =>
     options.UseSqlServer(connectionString));
+builder.Services.AddDbContext<UserContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("SqlConnection")));
 
 
 var app = builder.Build();
