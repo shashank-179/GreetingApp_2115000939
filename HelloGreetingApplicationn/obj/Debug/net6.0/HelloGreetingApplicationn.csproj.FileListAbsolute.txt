@@ -116,3 +116,4 @@ C:\Users\Shashank Mishra\source\repos\HelloGreetingApplicationn\HelloGreetingApp
 C:\Users\Shashank Mishra\source\repos\HelloGreetingApplicationn\HelloGreetingApplicationn\obj\Debug\net6.0\HelloGreetingApplicationn.pdb
 C:\Users\Shashank Mishra\source\repos\HelloGreetingApplicationn\HelloGreetingApplicationn\obj\Debug\net6.0\HelloGreetingApplicationn.genruntimeconfig.cache
 C:\Users\Shashank Mishra\source\repos\HelloGreetingApplicationn\HelloGreetingApplicationn\obj\Debug\net6.0\ref\HelloGreetingApplicationn.dll
+C:\Users\Shashank Mishra\source\repos\HelloGreetingApplicationn\HelloGreetingApplicationn\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

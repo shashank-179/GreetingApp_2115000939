@@ -12,9 +12,12 @@ using RepositoryLayer.Entity;
 public class UserController : ControllerBase
 {
     private readonly GreetingBL _greetingBL;
-    public UserController(GreetingBL _greetingBL)
+    private readonly JwtService jwtService;
+
+    public UserController(GreetingBL _greetingBL, JwtService jwtService)
     {
         this._greetingBL = _greetingBL;
+        this.jwtService = jwtService;
     }
     [HttpPost("register")]
     public IActionResult Register([FromBody] RegisterDTO registerDTO)
@@ -46,19 +49,18 @@ public class UserController : ControllerBase
         {
             return BadRequest("Invalid Credentials");
         }
-        var result = _greetingBL.LoginUserBL(loginDTO);
-        if (result == "Email and Password are required")
+
+        var user = _greetingBL.LoginUserBL(loginDTO); // Expecting UserEntity
+
+        if (user == null)
         {
-            return BadRequest(result);
+            return BadRequest("Invalid email or password");
         }
-        else if (result == "Login successful")
-        {
-            return Ok(result);
-        }
-        else
-        {
-            return StatusCode(500, "An error occurred while registering the user.");
-        }
+
+        // Generate JWT token
+        var token = jwtService.GenerateToken(user);
+
+        return Ok(new { message = "Login successful", token });
     }
 
 }
